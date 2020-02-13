@@ -23,21 +23,21 @@ In this project you'll take this crypto currency tracker app and build two custo
 - [✔️] Download project dependencies by running one of these two commands `yarn` or `npm install`
 - [✔️] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
 - [✔️] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [✔️] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [✔️] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [✔️] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
+- [✔️] Add your team lead as a reviewer on the pull-request
+- [✔️] Your team lead will count the project as complete by merging the branch back into master.
+- [✔️] Do your magic!
 
 ## Minimum Viable Product
 
-- [ ] Build a custom hook that let's you save data to localStorage
-- [ ] Build a second custom hook that sets the `dark-mode` class on the body element
-- [ ] Compose your two new hooks together to be able to set and persist your user's dark mode preference in your app
+- [✔️] Build a custom hook that let's you save data to localStorage
+- [✔️] Build a second custom hook that sets the `dark-mode` class on the body element
+- [✔️] Compose your two new hooks together to be able to set and persist your user's dark mode preference in your app
 <!--
 - [ ] Write tests that use mocks and spies to handle dependencies in your components
 -->
@@ -138,8 +138,10 @@ We're going to use this inside our dark mode hook, but this can be used anywhere
 
 Now that we have composed our different pieces of stateful logic, let's use it in our component!
 
-- import the dark mode hook into the `NavBar` component
-- Looking at this component, we see that we are controlling the toggle with some state. The state hook here returns a `darkMode` value, and a `setDarkMode` function. Isn't that exactly what our `useDarkMode` hook returns as well? Replace the state hook with our hook, click the toggle, and watch the magic happen!!!
+
+✔️ import the dark mode hook into the `NavBar` component
+
+✔️ Looking at this component, we see that we are controlling the toggle with some state. The state hook here returns a `darkMode` value, and a `setDarkMode` function. Isn't that exactly what our `useDarkMode` hook returns as well? Replace the state hook with our hook, click the toggle, and watch the magic happen!!!
 
 (If it wasn't magical, you have a bug somewhere 😫 go back through the steps slowly, one at a time, to see if you missed any of the steps)
 
