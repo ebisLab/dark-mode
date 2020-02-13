@@ -90,7 +90,9 @@ export const useLocalStorage = (key, initialValue) => {
   ✔️ inside the hook, write a function called `setValue` that takes a `value` parameter
 
   ✔️ In `setValue`, set the `value` to localStorage using the `key` that was passed into the hook itself
-  - Also, update the state of `storedValue` with `value` as well
+
+  ✔️ Also, update the state of `storedValue` with `value` as well
+  
   - Add `setValue` to the array that is being returned out of this hook
   - `setValue` should look something like this:
 
