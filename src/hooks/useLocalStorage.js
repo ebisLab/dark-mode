@@ -12,7 +12,7 @@ return JSON.parse(window.localStorage.getItem(key));
 });
 
 const setValue = value =>{
-    
-}
+   window.localStorage.setItem(key, JSON.stringify(value));
+};
 return [storedValue];
 }
